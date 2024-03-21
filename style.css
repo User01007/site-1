@@ -1,5 +1,5 @@
 .Burro{
-    width: 600px;
+    width: 500%;
 }
 body{
     background-color: rgb(118, 255, 83);
@@ -12,13 +12,15 @@ color: #000000;
 
 .foto{
     text-align: center;
-
+    display: flex;
 }
 header{
 background-color: rgb(118, 255, 83);
+ display: flex;
+ justify-content: space-aroun;
 }
 .logo{
-   width:99%; 
+   width:20%; 
 }
 .sobre{
     text-align: center;
@@ -27,4 +29,15 @@ background-color: rgb(118, 255, 83);
     
 }
 .texto-2{
+}
+
+.li{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+
 }
